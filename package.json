@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csv-parser": "^1.5.0"
+    "csv-parser": "^1.5.0",
+    "minimist": "^1.1.0",
+    "pad-number": "0.0.1"
   }
 }
