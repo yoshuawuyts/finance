@@ -5,7 +5,7 @@ const fs = require('fs')
 
 var res = 0
 
-fs.createReadStream('./2015/02_spendings.csv')
+fs.createReadStream('./2015/01_spendings.csv')
   .pipe(csv())
   .on('data', function(data) {
     if (data.value) res += parseInt(data.value)
